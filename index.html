@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Doce | confeitaria Artesanal</title>
+    <meta name="description" content="Maria Doces é uma confeitaria artesanal especializada em doces feitos sob encomenda, com carinho e ingredientes selecionados.">
+    <meta name="theme-color" content="#F6C1CC">
+
+  <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header class="header-site" >
+        <a href="#" class="logo">Maria Doce</a>
+
+        <button  class="btn-menu"
+            aria-label="Abrir menu"
+            aria-expanded="false">
+
+            ☰
+
+        </button>
+
+
+        <nav aria-label="Navegação principal" aria-hidden="true" class="menu-mobile">
+            <button class="btn-close" aria-label="Fechar menu">✕</button>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Doces</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="main">
+        <!--hero-->
+        <section aria-labelledby="hero-title" class="section-hero">
+            <div class="hero-content">
+                <h2 id="hero-title">Doces artesanais feitos com carinho</h2>
+                <p>Confeitaria artesanal especializada em encomendas para momentos especiais </p>
+
+                <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="Fazer encomenda pelo WhatsApp">
+                Fazer encomenda
+                </a>
+
+                <figure>
+                    <img src="images/fatia-torta-cereja-transparente.png" alt="Cupake de massa de bolo e creme e cereja">
+                </figure>
+
+            </div>
+        </section>
+
+        <section id="sobre" class="section-sobre" aria-labelledby="sobre-title">
+            <h2 id="sobre-title">Sobre a Maria Doce</h2>
+            <p>Somos uma confeitaria artesanal que acredita que cada doce carrega carinho, cuidado
+                e atenção aos detalhes. Trabalhamos com ingredientes selecionados e produção sob encomenda.
+            </p>
+
+            <div class="sobre-decor">
+                <img src="images/morangos-ilustracao-removebg-preview.png" alt="" aria-hidden="true">
+                <img src="images/bluberry-ilustracao-removebg-preview.png" alt="" aria-hidden="true">
+
+            </div>
+
+        </section>
+
+        <section id="produtos" class="section-produtos" aria-labelledby="produtos-title">
+            <h2 id="produtos-title">Nosso doces</h2>
+
+            <ul class="produtos-lista">
+                <li class="produto-card card-rosa">
+                    <article>
+                        <h3>Bolos artesanais</h3>
+                        <p>Bolos caseiros com recheios cremosos e decoração delicada.</p>
+                    </article>
+                </li>
+
+                <li  class="produto-card card-amarelo">
+                    <article>
+                        <h3>Doces especiais</h3>
+                        <p>Docinhos para festas, comemorações e datas especiais.</p>
+                    </article>
+                </li>
+
+                <li class="produto-card card-roxo">
+                    <article>
+                        <h3>Encomendas personalizadas</h3>
+                        <p>Doces feitos sob medida para tornar seu momento ainda mais especial.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section id="galeria" class="section-galeria" aria-labelledby="galeria-title">
+            <div class="galeria-container">
+                <h2 id="galeria-title">Alguns dos nossos doces</h2>
+
+                <div class="galeria-grid">
+                    <figure class="img-grande">
+                        <img src="images/cupcake-chocolate-removebg-preview.png" alt="cupcake de chocolate">
+                    </figure>
+
+                    <figure>
+                        <img src="images/bolomorango.jpg" alt="fatia torta de morango e nata">
+                    </figure>
+
+                    <figure>
+                        <img src="images/bolinhored.jpg" alt="bolo de red">
+                    </figure>
+
+                    <figure class="img-grande">
+                        <img src="images/boloblubery.jpg" alt="cupcake cereja">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="section-depoimentos"  aria-labelledby="depoimentos-title">
+            <h2 id="depoimentos-title">O que dizem nossos clientes</h2>
+
+            <div class="depoimentos-lista">
+                <article class="depoimento-card">
+                    <p>
+                        “Os doces da Maria são simplesmente perfeitos!
+                        Além de lindos, são deliciosos. Atendimento impecável.”
+                    </p>
+                    <span>— Ana Paula</span>
+                </article>
+
+                <article class="depoimento-card">
+                    <p>
+                        “Encomendei para o aniversário da minha filha
+                        e todo mundo elogiou. Dá pra sentir o carinho em cada detalhe.”
+                    </p>
+                    <span>— Camila Rocha</span>
+                </article>
+
+                <article class="depoimento-card">
+                    <p>
+                        “Além da qualidade, o cuidado na entrega faz toda a diferença.
+                        Com certeza vou pedir novamente.”
+                    </p>
+                    <span>— Juliana Martins</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="section-cta" aria-labelledby="contato-title">
+            <h2 id="cta-title">Pronta para adoçar seu momento?</h2>
+            <p>Encomendas artesanais feitas com carinho, ingredientes selecionados
+                e aquele toque especial que só a Maria Doces tem.</p>
+
+            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="Fazer encomenda pelo WhatsApp" class="btn-cta">
+                Chamar no WhatsApp
+            </a>
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer-site">
+        <h3>Maria Doce</h3>
+
+        <p>
+            Confeitaria artesanal especializada em doces feitos com carinho
+            para momentos especiais.
+        </p>
+
+        <ul class="footer-social">
+            <li>
+                <a href="#" aria-label="Instagram da Maria Doces">Instagram</a>
+            </li>
+            <li>
+                <a href="#" aria-label="WhatsApp da Maria Doces">WhatsApp</a>
+            </li>
+        </ul>
+
+        <small>
+            © 2026 Maria Doces — Projeto fictício para portfólio
+        </small>
+    </footer>
+
+
+<script>
+  const btnMenu = document.querySelector('.btn-menu');
+  const btnClose = document.querySelector('.btn-close');
+  const menu = document.querySelector('.menu-mobile');
+  const menuLinks = document.querySelectorAll('.menu-mobile a');
+
+  function openMenu() {
+    menu.classList.add('active');
+    btnMenu.setAttribute('aria-expanded', 'true');
+    menu.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    menu.classList.remove('active');
+    btnMenu.setAttribute('aria-expanded', 'false');
+    menu.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  btnMenu.addEventListener('click', openMenu);
+  btnClose.addEventListener('click', closeMenu);
+
+  menuLinks.forEach(link => {
+    link.addEventListener('click', closeMenu);
+  });
+</script>
+
+</body>
+</html>
